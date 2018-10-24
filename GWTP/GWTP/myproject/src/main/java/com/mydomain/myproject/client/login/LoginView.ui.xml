@@ -1,0 +1,52 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui' xmlns:us="http://www.w3.org/1999/html">
+
+
+
+
+    <g:HTMLPanel>
+        <!--<g:TextBox ui:field="username" /><br/>-->
+        <!--<g:PasswordTextBox ui:field="password"/><br/>-->
+        <!--<g:Button ui:field="confirm" text="HUI VAM"/>-->
+
+
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css"></link>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <form class="form-horizontal" action='' method="POST">
+                        <fieldset>
+                            <div id="legend">
+                                <legend class="">Login</legend>
+                            </div>
+                            <div class="control-group">
+                                <!-- Username -->
+                                <div class="controls">
+                                    <g:TextBox ui:field="username" addStyleNames="name" /><br/>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <!-- Password-->
+                                <div class="controls">
+                                    <g:PasswordTextBox ui:field="password"/><br/>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <!-- Button -->
+                                <div class="controls">
+                                    <g:Button ui:field="confirm" text="HUI VAM"/>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </g:HTMLPanel>
+</ui:UiBinder>
+
